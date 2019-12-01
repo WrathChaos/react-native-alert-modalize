@@ -28,7 +28,8 @@ export default {
   imageBackgroundStyle: {
     width: "100%",
     height: "100%",
-    borderRadius: 64
+    borderRadius: 64,
+    marginBottom: 16
   },
   containerGlue: {
     alignItems: "center",
@@ -36,7 +37,7 @@ export default {
   },
   imageStyle: {
     width: 200,
-    height: 200
-    // marginBottom: 32
+    height: 200,
+    marginBottom: 24
   }
 };

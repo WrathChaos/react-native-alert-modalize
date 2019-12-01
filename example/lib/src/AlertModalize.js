@@ -37,7 +37,7 @@ export class AlertModalize extends React.PureComponent {
           <View style={styles.containerGlue}>
             <Image
               style={styles.imageStyle}
-              source={require("../../assets/forti.png")}
+              source={require("../../assets/razor.png")}
             />
             <Text style={titleStyle || _titleStyle(titleTextColor)}>
               {title}
@@ -46,7 +46,7 @@ export class AlertModalize extends React.PureComponent {
               style={{
                 margin: 16,
                 width: 325,
-                fontSize: 16,
+                fontSize: 17,
                 color: "#f2f2f2",
                 fontWeight: "300",
                 fontFamily: "BurbankBigCondensed-Black",
@@ -105,7 +105,7 @@ export class AlertModalize extends React.PureComponent {
                   }
                 }}
               >
-                Let's Play!
+                What's in the shop?
               </Text>
             </TouchableOpacity>
           </View>
