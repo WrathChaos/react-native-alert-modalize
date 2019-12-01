@@ -19,7 +19,7 @@
 <img alt="React Native Library Boilerplate"
         src="assets/Screenshots/razor.png" width="49%" />
 <img alt="React Native Library Boilerplate"
-        src="assets/Screenshots/xmas.png" width="49%" height="530" />
+        src="assets/Screenshots/xmas.png" width="49%"  />
 
 </p>
 
