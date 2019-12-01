@@ -1,15 +1,23 @@
-export const _titleStyle = () => ({
+export const _titleStyle = color => ({
+  color,
   width: "90%",
-  fontSize: 30,
-  color: "#fdfdfd",
+  fontSize: 34,
   fontWeight: "bold",
-  textAlign: "center"
+  textAlign: "center",
+  fontFamily: "BurbankBigCondensed-Black",
+  shadowRadius: 2,
+  shadowOpacity: 0.15,
+  shadowColor: "#000",
+  shadowOffset: {
+    width: 0,
+    height: 3
+  }
 });
 
 export default {
   container: {
     padding: 24,
-    height: 400,
+    height: 450,
     alignItems: "center",
     justifyContent: "center"
   },
@@ -27,8 +35,8 @@ export default {
     justifyContent: "center"
   },
   imageStyle: {
-    width: 125,
-    height: 125,
-    marginBottom: 32
+    width: 200,
+    height: 200
+    // marginBottom: 32
   }
 };

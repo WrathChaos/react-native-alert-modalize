@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* exampleTests.m */; };
 		0307C79EFA31EFD86869226B /* libPods-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3DEF68CE19C432A26763D8 /* libPods-example.a */; };
@@ -20,6 +19,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* exampleTests.m */; };
 		4B5BA384A855B1749FC0F9E7 /* libPods-example-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 258BE9AE3CAB6280BB13AF45 /* libPods-example-tvOSTests.a */; };
 		E0B9D9FC4409843D633958C6 /* libPods-example-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3359D31073A880FA06E8322 /* libPods-example-tvOS.a */; };
+		AD70DA86F67A4839BA7541CC /* BurbankBigCondensed-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF61235057354384989CD310 /* BurbankBigCondensed-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,7 @@
 		B3359D31073A880FA06E8322 /* libPods-example-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-example-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		DF61235057354384989CD310 /* BurbankBigCondensed-Black.otf */ = {isa = PBXFileReference; name = "BurbankBigCondensed-Black.otf"; path = "../assets/fonts/BurbankBigCondensed-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +182,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				6A77F827FA3F6C9AE34A255F /* Pods */,
+				CDBB0AC14E924B699A651A80 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +199,15 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		CDBB0AC14E924B699A651A80 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				DF61235057354384989CD310 /* BurbankBigCondensed-Black.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -285,7 +296,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -338,6 +349,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				AD70DA86F67A4839BA7541CC /* BurbankBigCondensed-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

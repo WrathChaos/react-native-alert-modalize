@@ -35,7 +35,10 @@ export class AlertModalize extends React.PureComponent {
       >
         <View style={styles.container}>
           <View style={styles.containerGlue}>
-            <Image style={styles.imageStyle} source={imageSource} />
+            <Image
+              style={styles.imageStyle}
+              source={require("../../assets/forti.png")}
+            />
             <Text style={titleStyle || _titleStyle(titleTextColor)}>
               {title}
             </Text>
@@ -43,14 +46,37 @@ export class AlertModalize extends React.PureComponent {
               style={{
                 margin: 16,
                 width: 325,
-                fontSize: 15,
+                fontSize: 16,
                 color: "#f2f2f2",
-                fontWeight: "300"
+                fontWeight: "300",
+                fontFamily: "BurbankBigCondensed-Black",
+                shadowRadius: 2,
+                shadowOpacity: 0.1,
+                shadowColor: "#000",
+                shadowOffset: {
+                  width: 0,
+                  height: 3
+                }
               }}
             >
-              Sorry about that... Uhmm...How about you check the{" "}
-              <Text style={{ fontWeight: "bold" }}>Shop</Text> untill we finish{" "}
-              <Text style={{ fontWeight: "bold" }}>Tips & Tricks</Text>
+              Sorry about that... Uhmm... How about you check the{" "}
+              <Text
+                style={{
+                  fontSize: 26,
+                  color: "#ededed"
+                }}
+              >
+                Shop
+              </Text>{" "}
+              untill we finish{" "}
+              <Text
+                style={{
+                  fontSize: 26,
+                  color: "#ededed"
+                }}
+              >
+                Tips & Tricks
+              </Text>
             </Text>
             <TouchableOpacity
               style={{
@@ -66,9 +92,17 @@ export class AlertModalize extends React.PureComponent {
             >
               <Text
                 style={{
+                  fontSize: 18,
                   color: "#fdfdfd",
-                  fontWeight: "800",
-                  textAlign: "center"
+                  textAlign: "center",
+                  fontFamily: "BurbankBigCondensed-Black",
+                  shadowRadius: 1,
+                  shadowOpacity: 0.1,
+                  shadowColor: "#000",
+                  shadowOffset: {
+                    width: 0,
+                    height: 3
+                  }
                 }}
               >
                 Let's Play!
