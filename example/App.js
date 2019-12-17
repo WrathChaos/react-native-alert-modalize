@@ -1,7 +1,7 @@
 import React from "react";
 import { StatusBar, SafeAreaView, Text } from "react-native";
-import { AlertModalize } from "./lib/src/AlertModalize";
 import Ripple from "react-native-material-ripple";
+import AlertModalize from "react-native-alert-modalize";
 
 const App = () => {
   return (

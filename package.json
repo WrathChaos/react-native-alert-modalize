@@ -1,8 +1,14 @@
 {
-  "name": "react-native-library-boilerplate",
+  "name": "react-native-alert-modalize",
   "version": "0.0.1",
-  "description": "Description for library",
+  "description": "Awesome styled, fully customizable alert modalize for React Native.",
   "keywords": [
+    "alert",
+    "popup",
+    "modal",
+    "modalize",
+    "customizable",
+    "beautiful",
     "FreakyCoder",
     "freakycoder",
     "kuray",
@@ -14,13 +20,16 @@
     "rn"
   ],
   "homepage": "https://www.freakycoder.com",
-  "bugs": "https://github.com/WrathChaos/react-native-library-boilerplate/issues",
+  "bugs": "https://github.com/WrathChaos/react-native-alert-modalize/issues",
   "main": "./lib/src/AlertModalize.js",
-  "repository": "git@github.com:WrathChaos/react-native-library-boilerplate.git",
+  "repository": "git@github.com:WrathChaos/react-native-alert-modalize.git",
   "author": "Kuray (FreakyCoder) <kurayogun@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "react": ">= 16.x.x",
-    "react-native": ">= 0.55.x"
+    "react-native": ">= 0.55.x",
+    "react-native-modalize": ">= 1.2.3",
+    "react-native-gesture-handler": ">= 1.5.2",
+    "react-native-material-ripple": ">= 0.9.1"
   }
 }
