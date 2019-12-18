@@ -14,9 +14,9 @@
 ## Early Stage Example Photos
 
 <p align="center">
-<img alt="React Native Alert Modalzie"
+<img alt="React Native Alert Modalize"
         src="assets/Screenshots/razor.png" width="49%" />
-<img alt="React Native Alert Modalzie"
+<img alt="React Native Alert Modalize"
         src="assets/Screenshots/xmas.png" width="49%"  />
 </p>
 
