@@ -30,9 +30,7 @@ npm i react-native-alert-modalize
 
 ###### IMPORTANT! You need install them
 
-```js
-"react": ">= 16.x.x",
-"react-native": ">= 0.55.x",
+```jsx
 "react-native-modalize": ">= 1.2.3",
 "react-native-gesture-handler": ">= 1.5.2",
 "react-native-material-ripple": ">= 0.9.1"
@@ -65,10 +63,6 @@ onPress={() => alertModal.closeModal()}
 ```
 
 # Configuration - Props
-
-      descFontFamily,
-      titleFontFamily,
-      buttonFontFamily,
 
 | Property              |    Type     |    Default    | Description                                                      |
 | --------------------- | :---------: | :-----------: | ---------------------------------------------------------------- |
